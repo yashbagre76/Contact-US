@@ -2,9 +2,16 @@ import React from "react";
 
 function Navigation() {
   return (
-    <div className="bg-indigo-500 flex">
-      <h1>hello</h1>
-    </div>
+    <nav>
+      <div className="flex">
+        <img src="\src\assets\Images\logo pg.png" alt="" />
+      </div>
+      <ul className=" flex gap-11">
+        <li> Home </li>
+        <li> About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
   );
 }
 
